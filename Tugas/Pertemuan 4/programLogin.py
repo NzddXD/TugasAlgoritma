@@ -28,7 +28,7 @@ while retries <= maxRetries:
             # jika sudah melebihi limit percobaan, keluar dari loop dan exit dari
             # kode.
             if retries >= maxRetries:
-                print("Sisa percobaan telah mencapai maksimum! Tidak dapat login lagi.")
+                print("Jumlah percobaan telah mencapai maksimum! Tidak dapat login lagi.")
                 break
 
         # jika username dan password benar, tampilkan pesan berhasil, keluar dari loop,

@@ -1,5 +1,5 @@
 # Variabel untuk banyaknya barisan
-baris = 5
+baris = 10
 
 # Loop sebanyak banyaknya baris, hanya sekali untuk tiap
 # barisan.
