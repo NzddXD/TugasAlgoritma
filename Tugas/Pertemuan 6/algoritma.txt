@@ -1,0 +1,20 @@
+Random Item Generator (Item RNG)
+Langkah langkah proses kode:
+
+1. Mulai
+2. User menekan Enter
+3. Sistem akan mengambil angka acak antara 1 sampai 100
+4. Sistem akan membandingkan angka acak yang diambil dengan bobot
+   'kelangkaan' (Rarity Weight).
+5. Sistem akan memberikan hasil yang terdapat nama item juga tingkatan 'kelangkaan'
+   berdasarkan kriteria berikut:
+
+    Mythic (0.21%): <= 0.21
+    Legendary (1%): <= 1.21
+    Epic (9.95%): <= 11.16
+    Rare (31.28%): <= 42.44
+    Common (57.56%): sisa diatas 42.44 - 100
+
+6. Jika user menekan tombol enter, ulangi langkah ke-3. Jika user exit dengan
+   mengetik 'qa' atau men-terminate terminal, keluar dari program.
+7. Selesai.
