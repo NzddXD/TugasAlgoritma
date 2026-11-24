@@ -3,6 +3,7 @@ class Output:
         self.passedText = passedText or 'Text'
 
     COLORS = {
+        'SUCCESS': '\033[92m',
         'ERR': '\033[91m',
         'INFO': '\033[94m',
         'WARN': '\033[93m',
@@ -21,3 +22,7 @@ class Output:
     def err(self, text = None):
         msg = text or self.passedText
         print(f'\n{self.COLORS['ERR']}[E]: {msg} {self.COLORS['RESET']}')
+
+    def success(self, text = None):
+            msg = text or self.passedText
+            print(f'\n{self.COLORS['ERR']}[E]: {msg} {self.COLORS['RESET']}')

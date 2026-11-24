@@ -1,5 +1,3 @@
-import os
-
 class Colorizer:
     def __init__(self, color, textContent = None):
         self.color = color

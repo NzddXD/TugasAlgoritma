@@ -16,5 +16,5 @@ Langkah langkah proses kode:
     Common (57.56%): sisa diatas 42.44 - 100
 
 6. Jika user menekan tombol enter, ulangi langkah ke-3. Jika user exit dengan
-   mengetik 'qa' atau men-terminate terminal, keluar dari program.
+   menekan 'Ctrl + C' atau men-terminate terminal, keluar dari program.
 7. Selesai.
